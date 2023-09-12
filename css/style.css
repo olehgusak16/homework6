@@ -1,0 +1,17 @@
+.header {
+    background-color: rgb(70, 8, 8);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 2%;
+}
+
+.logo__image {
+    display: block;
+}
+.logo__heading {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #f9aa17;
+    text-transform: uppercase;
+}
