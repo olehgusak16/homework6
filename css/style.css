@@ -1,9 +1,11 @@
 .header {
-    background-color: rgb(70, 8, 8);
+    background-color: #460808;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 2%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .logo__image {
@@ -14,4 +16,32 @@
     font-weight: 700;
     color: #f9aa17;
     text-transform: uppercase;
+}
+.nav__link,
+.subnav__link {
+    background: #f9aa17;
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #460808;
+    display: block;
+    padding: 15px 25px;
+    font-weight: 600;
+    white-space: nowrap;
+}
+.nav__link:hover,
+.subnav__link:hover {
+    background: #cf8701;
+    color: #220000;
+}
+.subnav {
+    position: absolute;
+    display: none;
+}
+.nav_item:hover .subnav {
+    display: block;
+}
+.subnav__link {
+    border-radius: 0;
+    font-size: 1.2rem;
+    border-bottom: #220000 2px solid;
 }
