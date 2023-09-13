@@ -1,6 +1,5 @@
 .wrapper {
     background: #4d3b3b;
-    position: fixed;
 }
 .header {
     background-color: #460808;
@@ -61,6 +60,7 @@
     text-align: center;
     padding: 20px 3%;
     color: #f9aa17;
+    margin-bottom: 45px;
 }
 .content__box__heading {
     margin-bottom: 15px;
@@ -79,6 +79,9 @@
     background: #4d3232;
     padding: 15px;
     text-align: left;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
 }
 .item__header__img {
     width: 100%;
@@ -90,12 +93,13 @@
     margin-bottom: 25px;
 }
 .item__content__heading {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     margin-bottom: 10px;
     text-align: center;
 }
 .item__content__description {
     margin-bottom: 15px;
+    font-size: 1.1rem;
 }
 .item__content__price__box {
     display: flex;
