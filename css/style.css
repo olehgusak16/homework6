@@ -1,7 +1,10 @@
 .wrapper {
     background: #4d3b3b;
+    display: flex;
+    flex-direction: column;
 }
-.header {
+.header,
+.footer {
     background-color: #460808;
     display: flex;
     justify-content: space-between;
@@ -114,4 +117,10 @@
 }
 .item__footer__btn {
     text-align: center;
+}
+.footer {
+    justify-content: center;
+    border-radius: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
