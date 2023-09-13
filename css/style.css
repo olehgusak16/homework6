@@ -1,3 +1,6 @@
+.wrapper {
+    background: #4d3b3b;
+}
 .header {
     background-color: #460808;
     display: flex;
@@ -44,4 +47,10 @@
     border-radius: 0;
     font-size: 1.2rem;
     border-bottom: #220000 2px solid;
+}
+.content {
+    width: 80%;
+    border-left: #462222 5px solid;
+    border-right: #462222 5px solid;
+    margin: 0 auto;
 }
